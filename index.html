@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>From Submission!</title>
+    <link rel="stylesheet" href="stye.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <nav>
+          <div class="left-side">
+            <a href="index.html">
+              <img src="aseet/logo_dumbways.png" alt="" style="width: 50px;"/>
+            </a>
+
+            <ol>
+              <li style="list-style-type: none">
+                <a href="index.html" class="home" target="blank">Home</a>
+              </li>
+              <li style="list-style-type: none">
+                <a href="#" target="blank" class="project"
+                  >My Project</a
+                >
+              </li>
+            </ol>
+          </div>
+
+          <div class="right-side">
+            <a href="contac.html" target="blank"> Contact Me </a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="content">
+        <div>
+          <h2>HARUS DI ISI!!</h2>
+          <form>
+            <div class="form-container">
+              <div class="name-input">
+                <label for="name">Nama</label>
+                <input type="text" id="name" />
+              </div>
+
+              <div class="email-input">
+                <label for="input-email">Email</label>
+                <input type="text" id="email" />
+              </div>
+
+              <div class="phone-input">
+                <label for="phone">No HP</label>
+                <input type="text" id="phone" />
+              </div>
+
+              <div class="subject-input">
+                <label for="subject">Bagian</label>
+                <select name="subject" id="subject">
+                  <option value="Frond End">Frond End</option>
+                  <option value="Back End">Back End</option>
+                  <option value="Full Stack">Full Stack</option>
+                </select>
+              </div>
+
+              <div class="text-area">
+                <label for="message">Pesan kamu</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="20"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="btn">
+              <button class="submit-btn" type="button" onclick="submitForm()">
+                kirim
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
